@@ -1,5 +1,5 @@
-module CVulkan [system] {
-  header "/usr/include/vulkan/vulkan.h"
+module CinderCone [system] {
+  header "/opt/vulkan/include/vulkan/vulkan.h"
   link "vulkan"
   config_macros VK_USE_PLATFORM_XCB_KHR
   export *
